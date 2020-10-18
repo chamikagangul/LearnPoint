@@ -35,7 +35,7 @@ subjectList =[
 ]
 
 /* subject. */
-router.get('/',authenticate, function(req, res, next) {
+router.get('/', function(req, res, next) {
   res.send(subjectList);
 });
 
